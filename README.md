@@ -4,10 +4,10 @@ decided to try to reproduce a project that I once developed for a subject in uni
 obective is pretty simple: you give a series of relations between people (represented by integers) 
 via stdin, preceeded by a special pair of people (will explain later). For example, the
 input: 
-``
-2 3
-1 2
-1 3
+``\n
+2 3\n
+1 2\n
+1 3\n
 ``
 means the special pair are the people 2 and 3 and that 1 is both a parent of 2 and 3.
 The objective is to output to the stdout the closest common ansestor(s) between the "special" pair
